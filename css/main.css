@@ -18,6 +18,10 @@ body {
   margin-top: 100px;
 }
 
+.ms_mt_20 {
+  margin-top: 20px;
+}
+
 /* Top bar */
 
 .main-header .top-bar {
@@ -134,15 +138,27 @@ body {
   font-size: 14px;
 }
 
-.reveal .title-reveal {
+.reveal .title-reveal,
+.carousel .title-carousel {
   font-size: 38px;
 }
 
-.reveal .text-reveal {
-  font-size: 18px;
+.reveal .text-reveal,
+.carousel .text-carousel {
+  font-size: 20px;
   color: #777777;
   font-weight: 500;
   margin-top: 20px;
+}
+
+/* Carousel */
+
+.carousel .img-carousel-main {
+  max-width: 100%;
+}
+
+.carousel .text-carousel {
+  font-size: 18px;
 }
 
 /* Media query */
@@ -173,6 +189,15 @@ body {
   .hero .row-hero .img-hero .info-hero .hero-logo {
     width: 58%;
   }
+
+  /* CAROUSEL */
+  .carousel {
+    margin-top: 60px;
+  }
+
+  .carousel .text-carousel {
+    font-size: 19px;
+  }
 }
 
 @media screen and (min-width: 1400px) {
@@ -194,5 +219,14 @@ body {
   /* Reveal */
   .reveal .text-reveal {
     font-size: 20px;
+  }
+
+  /* Carousel */
+  .carousel {
+    margin-top: 46px;
+  }
+
+  .carousel .row {
+    align-items: center;
   }
 }
