@@ -4,7 +4,7 @@
 }
 
 body {
-  padding-top: 150px;
+  padding-top: 126px;
 }
 
 /* Utilities */
@@ -20,7 +20,7 @@ body {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  padding: 10px;
+  padding: 20px;
   position: fixed;
   top: 0;
   width: 100%;
@@ -68,7 +68,90 @@ body {
 
 .main-header .ms-main-nav .ms-nav-bar-login .menu-login .ms_btn_site {
   background-color: #363636;
-  border-radius: 20px;
   box-shadow: none;
   border: none;
+}
+
+/* Hero */
+
+.hero .row-hero {
+  height: 550px;
+}
+
+.hero .row-hero .img-hero {
+  width: 100%;
+  height: 100%;
+  background-image: url("../img/jumbo-bg.png");
+  background-size: cover;
+  background-position-x: 52%;
+  position: relative;
+}
+
+.hero .row-hero .img-hero .info-hero {
+  max-width: 100%;
+  position: absolute;
+  top: 40%;
+  left: 3%;
+}
+
+.hero .row-hero .img-hero .info-hero .hero-logo {
+  width: 55%;
+}
+
+.hero .row-hero .img-hero .info-hero .title-hero {
+  margin: 20px 0;
+  font-size: 36px;
+}
+
+.hero .row-hero .img-hero .info-hero .text-hero {
+  margin-bottom: 30px;
+  font-size: 16px;
+}
+
+.hero .row-hero .img-hero .info-hero .ms-btn-red {
+  background-color: #cd3d0f;
+}
+
+/* Media query */
+
+@media screen and (min-width: 576px) {
+  .hero .row-hero .img-hero {
+    background-position-x: 53%;
+  }
+
+  .hero .row-hero .img-hero .info-hero {
+    max-width: 91%;
+    top: 42%;
+  }
+
+  .hero .row-hero .img-hero .info-hero .title-hero {
+    font-size: 38px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .hero .row-hero .img-hero .info-hero {
+    max-width: 85%;
+    left: 5%;
+  }
+
+  .hero .row-hero .img-hero .info-hero .hero-logo {
+    width: 58%;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .hero .row-hero {
+    height: 450px;
+  }
+
+  .hero .row-hero .img-hero .info-hero {
+    max-width: 33%;
+    top: 33%;
+    left: 10%;
+  }
+
+  .hero .row-hero .img-hero .info-hero .hero-logo {
+    width: 55%;
+  }
 }
