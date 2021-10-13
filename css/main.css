@@ -1,0 +1,26 @@
+/* Utilities */
+
+.bg-color {
+  background-color: #000;
+  height: 50px;
+}
+
+/* Top bar */
+
+.main-header .top-bar {
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  margin-bottom: 80px;
+}
+
+.main-header .top-bar .container-top-bar-logo {
+  width: 80px;
+}
+.main-header .top-bar .container-top-bar-logo .logo-top-bar {
+  max-width: 100%;
+  object-fit: cover;
+}
