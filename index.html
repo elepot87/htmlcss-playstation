@@ -23,12 +23,81 @@
     <link rel="stylesheet" href="./css/main.css" />
   </head>
   <body>
+    <!-- Header -->
     <header class="main-header">
+      <!-- Top bar -->
       <section class="top-bar bg-color">
         <div class="container-top-bar-logo">
           <img src="./img/sony_logo.svg" alt="logo Sony" class="logo-top-bar" />
         </div>
       </section>
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-xxl ms-main-nav navbar-light bg-light">
+        <div class="container-fluid">
+          <!-- Brand -->
+          <a class="navbar-brand" href="#">
+            <img
+              src="./img/play_logo.svg"
+              alt="playstation logo"
+              width="50"
+              height="auto"
+            />
+          </a>
+          <!-- Toggle -->
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <!-- Main nav container -->
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-xxl-0 ms-main-nav-container">
+              <li class="nav-item menu-parent">
+                <a class="nav-link ms-nav-bar-link" href="#">Giochi</a>
+                <i class="fas fa-chevron-down icon"></i>
+              </li>
+              <li class="nav-item menu-parent">
+                <a class="nav-link ms-nav-bar-link" href="#">Hardware</a>
+                <i class="fas fa-chevron-down icon"></i>
+              </li>
+              <li class="nav-item menu-parent">
+                <a class="nav-link ms-nav-bar-link" href="#">Servizi</a>
+                <i class="fas fa-chevron-down icon"></i>
+              </li>
+              <li class="nav-item menu-parent">
+                <a class="nav-link ms-nav-bar-link" href="#">Novità</a>
+                <i class="fas fa-chevron-down icon"></i>
+              </li>
+              <li class="nav-item menu-parent">
+                <a class="nav-link ms-nav-bar-link" href="#">Fai acquisti</a>
+                <i class="fas fa-chevron-down icon"></i>
+              </li>
+              <li class="nav-item menu-parent">
+                <a class="nav-link ms-nav-bar-link" href="#">Supporto</a>
+                <i class="fas fa-chevron-down icon"></i>
+              </li>
+            </ul>
+            <!-- Search -->
+            <form class="d-flex">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-success" type="submit">
+                Search
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
     </header>
 
     <!-- Script Bootstrap JS -->
