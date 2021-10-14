@@ -398,6 +398,19 @@ body {
   text-decoration: none;
 }
 
+.main-footer .copyright .logo-copyright {
+  width: 130px;
+  margin: 50px 0 10px 0;
+}
+
+.main-footer .copyright .text-copyright {
+  font-size: 14px;
+}
+
+.main-footer .copyright .text-copyright a {
+  color: #fff;
+}
+
 /* ==============================
    MEDIA QUERY
    ============================== */
