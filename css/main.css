@@ -360,9 +360,9 @@ body {
   max-width: 100%;
 }
 
-/* .wrapper-social {
+.wrapper-social {
   width: 100%;
-} */
+}
 
 /* Footer */
 
@@ -591,15 +591,11 @@ body {
   }
 
   /* Social media */
-  /* .wrapper-social {
+  .wrapper-social {
     width: 96px;
   }
 
   .col-small {
     width: 9%;
-  } */
-
-  .wrapper-social {
-    max-width: 75%;
   }
 }
