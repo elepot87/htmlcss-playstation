@@ -89,6 +89,13 @@ body {
   border: none;
 }
 
+.main-header .ms-main-nav .ms-nav-bar-login .menu-login .ms_btn_site:hover {
+  -webkit-box-shadow: inset 0px 0px 0px 3px #ffffff, 0px 0px 0px 2px #363636;
+  -moz-box-shadow: inset 0px 0px 0px 3px #ffffff, 0px 0px 0px 2px #363636;
+  -o-box-shadow: inset 0px 0px 0px 3px #ffffff, 0px 0px 0px 2px #363636;
+  box-shadow: inset 0px 0px 0px 3px #ffffff, 0px 0px 0px 2px #363636;
+}
+
 /* Hero */
 
 .hero .row-hero {
@@ -127,6 +134,13 @@ body {
 
 .hero .row-hero .img-hero .info-hero .ms-btn-red {
   background-color: #cd3d0f;
+}
+
+.hero .row-hero .img-hero .info-hero .ms-btn-red:hover {
+  -webkit-box-shadow: inset 0px 0px 0px 3px #000000, 0px 0px 0px 2px #cd3d0f;
+  -moz-box-shadow: inset 0px 0px 0px 3px #000000, 0px 0px 0px 2px #cd3d0f;
+  -o-box-shadow: inset 0px 0px 0px 3px #000000, 0px 0px 0px 2px #cd3d0f;
+  box-shadow: inset 0px 0px 0px 3px #000000, 0px 0px 0px 2px #cd3d0f;
 }
 
 /* Cover Game */
@@ -191,6 +205,17 @@ body {
   display: none;
 }
 
+.carousel .ms_btn_site_lightblue {
+  margin: 20px 0;
+}
+
+.carousel .ms_btn_site_lightblue:hover {
+  -webkit-box-shadow: inset 0px 0px 0px 3px #ffffff, 0px 0px 0px 2px #0d6efd;
+  -moz-box-shadow: inset 0px 0px 0px 3px #ffffff, 0px 0px 0px 2px #0d6efd;
+  -o-box-shadow: inset 0px 0px 0px 3px #ffffff, 0px 0px 0px 2px #0d6efd;
+  box-shadow: inset 0px 0px 0px 3px #ffffff, 0px 0px 0px 2px #0d6efd;
+}
+
 /* Active */
 .carousel .wrapper-thumbnail:hover {
   opacity: 1;
@@ -235,8 +260,15 @@ body {
 
 .cta .row-cta .img-cta .info-cta .ms-btn-red {
   background-color: #cd3d0f;
+  color: #fff;
 }
 
+.cta .row-cta .img-cta .info-cta .ms-btn-red:hover {
+  -webkit-box-shadow: inset 0px 0px 0px 3px #000000, 0px 0px 0px 2px #cd3d0f;
+  -moz-box-shadow: inset 0px 0px 0px 3px #000000, 0px 0px 0px 2px #cd3d0f;
+  -o-box-shadow: inset 0px 0px 0px 3px #000000, 0px 0px 0px 2px #cd3d0f;
+  box-shadow: inset 0px 0px 0px 3px #000000, 0px 0px 0px 2px #cd3d0f;
+}
 /* Nuove uscite */
 
 .nuove-uscite {
@@ -287,6 +319,13 @@ body {
 
 .esplora-ps .wrapper-esplora-ps .esplora-ps-accessori-title {
   font-size: 35px;
+}
+
+.esplora-ps .wrapper-esplora-ps .ms_btn_site_lightblue:hover {
+  -webkit-box-shadow: inset 0px 0px 0px 3px #ffffff, 0px 0px 0px 2px #0d6efd;
+  -moz-box-shadow: inset 0px 0px 0px 3px #ffffff, 0px 0px 0px 2px #0d6efd;
+  -o-box-shadow: inset 0px 0px 0px 3px #ffffff, 0px 0px 0px 2px #0d6efd;
+  box-shadow: inset 0px 0px 0px 3px #ffffff, 0px 0px 0px 2px #0d6efd;
 }
 
 /* PlayStation Plus */
@@ -343,6 +382,13 @@ body {
   border: none;
   font-size: 13px;
   margin: 15px 0;
+}
+
+.playstation-now .ms_btn_site_white:hover {
+  -webkit-box-shadow: inset 0px 0px 0px 3px #161c3b, 0px 0px 0px 2px #fff;
+  -moz-box-shadow: inset 0px 0px 0px 3px #161c3b, 0px 0px 0px 2px #fff;
+  -o-box-shadow: inset 0px 0px 0px 3px #161c3b, 0px 0px 0px 2px #fff;
+  box-shadow: inset 0px 0px 0px 3px #161c3b, 0px 0px 0px 2px #fff;
 }
 
 .playstation-now .playstation-now-banner {
