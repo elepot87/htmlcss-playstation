@@ -360,6 +360,36 @@ body {
   max-width: 100%;
 }
 
+/* Footer */
+
+.main-footer {
+  background-color: #00439c;
+}
+
+.main-footer .footer-logo {
+  width: 20%;
+  margin: 40px 0;
+}
+
+.main-footer .info-language .language,
+.main-footer .info-language .icon-footer,
+.main-footer .link-footer {
+  font-size: 14px;
+}
+
+.main-footer .icon-footer {
+  margin-right: 5px;
+}
+
+.main-footer .info-language {
+  margin-bottom: 40px;
+}
+
+.main-footer .link-footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
 /* ==============================
    MEDIA QUERY
    ============================== */
