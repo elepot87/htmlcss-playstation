@@ -360,6 +360,10 @@ body {
   max-width: 100%;
 }
 
+/* .wrapper-social {
+  width: 100%;
+} */
+
 /* Footer */
 
 .main-footer {
@@ -367,7 +371,7 @@ body {
 }
 
 .main-footer .footer-logo {
-  width: 20%;
+  width: 100px;
   margin: 40px 0;
 }
 
@@ -383,6 +387,10 @@ body {
 
 .main-footer .info-language {
   margin-bottom: 40px;
+}
+
+.main-footer .link-footer {
+  margin: 15px 0;
 }
 
 .main-footer .link-footer a {
@@ -570,11 +578,15 @@ body {
   }
 
   /* Social media */
-  .wrapper-social {
+  /* .wrapper-social {
     width: 96px;
   }
 
   .col-small {
     width: 9%;
+  } */
+
+  .wrapper-social {
+    max-width: 75%;
   }
 }
