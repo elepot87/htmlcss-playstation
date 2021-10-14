@@ -26,6 +26,10 @@ body {
   margin-top: 36px;
 }
 
+.ms_mt_80 {
+  margin-top: 80px;
+}
+
 /* Top bar */
 
 .main-header .top-bar {
@@ -254,6 +258,33 @@ body {
 
 .nuove-uscite .wrapper-nuove-uscite .text-nuove-uscite {
   font-size: 16px;
+  margin-bottom: 98px;
+}
+
+/* Esplora PlayStation */
+
+.esplora-ps .title-esplora-ps {
+  font-size: 38px;
+}
+
+.esplora-ps .text-esplora-ps,
+.esplora-ps .wrapper-esplora-ps .esplora-ps-accessori-text {
+  font-size: 20px;
+  color: #777777;
+  font-weight: 500;
+  margin-top: 20px;
+}
+
+.esplora-ps .intro .text-esplora-ps {
+  margin-bottom: 60px;
+}
+
+.esplora-ps .wrapper-esplora-ps .esplora-ps-accessori-img {
+  max-width: 100%;
+}
+
+.esplora-ps .wrapper-esplora-ps .esplora-ps-accessori-title {
+  font-size: 35px;
 }
 
 /* Media query */
@@ -346,6 +377,12 @@ body {
   .cta .row-cta .img-cta .info-cta .title-cta {
     font-size: 40px;
   }
+
+  /* Esplora PlayStation */
+
+  .esplora-ps .wrapper-esplora-ps .esplora-ps-accessori-text {
+    font-size: 19px;
+  }
 }
 
 @media screen and (min-width: 1000px) {
@@ -409,5 +446,11 @@ body {
     max-width: 21%;
     left: 16%;
     top: 12%;
+  }
+
+  /* Esplora PlayStation */
+
+  .esplora-ps .wrapper-esplora-ps .esplora-ps-accessori-text {
+    font-size: 20px;
   }
 }
