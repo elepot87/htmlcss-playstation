@@ -350,6 +350,13 @@ body {
   font-size: 13px;
 }
 
+.playstation-plus .ms_btn_site_light:hover {
+  -webkit-box-shadow: inset 0px 0px 0px 3px #1d81d3, 0px 0px 0px 2px #d9dadc;
+  -moz-box-shadow: inset 0px 0px 0px 3px #1d81d3, 0px 0px 0px 2px #d9dadc;
+  -o-box-shadow: inset 0px 0px 0px 3px #1d81d3, 0px 0px 0px 2px #d9dadc;
+  box-shadow: inset 0px 0px 0px 3px #1d81d3, 0px 0px 0px 2px #d9dadc;
+}
+
 .playstation-plus .playstation-plus-banner {
   max-width: 100%;
 }
