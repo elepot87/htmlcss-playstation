@@ -233,6 +233,29 @@ body {
   background-color: #cd3d0f;
 }
 
+/* Nuove uscite */
+
+.nuove-uscite {
+  background-color: #363636;
+}
+
+.nuove-uscite .title-nuove-uscite {
+  margin-bottom: 20px;
+}
+
+.nuove-uscite .subtitle-nuove-uscite {
+  margin-bottom: 20px;
+}
+
+.nuove-uscite .wrapper-nuove-uscite .thumbnail-nuove-uscite {
+  max-width: 100%;
+  border-radius: 20px;
+}
+
+.nuove-uscite .wrapper-nuove-uscite .text-nuove-uscite {
+  font-size: 16px;
+}
+
 /* Media query */
 
 @media screen and (min-width: 576px) {
