@@ -315,9 +315,37 @@ body {
   max-width: 100%;
 }
 
-/* Section discount */
+/* Dscount */
 
 .discount .wrapper-discount .discount-img {
+  max-width: 100%;
+}
+
+/* PlayStation Now */
+
+.playstation-now {
+  background-color: #161c3b;
+}
+
+.playstation-now .playstation-now-logo {
+  max-width: 65%;
+}
+
+.playstation-now .playstation-now-text {
+  margin: 20px 0;
+  font-size: 14px;
+  color: #fff;
+}
+
+.playstation-now .ms_btn_site_white {
+  color: #161c3b;
+  background-color: #fff;
+  border: none;
+  font-size: 13px;
+  margin: 15px 0;
+}
+
+.playstation-now .playstation-now-banner {
   max-width: 100%;
 }
 
@@ -362,6 +390,11 @@ body {
   /* Discount */
   .discount .text-discount {
     font-size: 19px;
+  }
+
+  /* PlayStation Now */
+  .playstation-now .playstation-now-text {
+    font-size: 16px;
   }
 }
 
