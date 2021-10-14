@@ -325,6 +325,19 @@ body {
   }
 }
 
+@media screen and (min-width: 1000px) {
+  /* CTA */
+  .cta .row-cta .img-cta .info-cta {
+    max-width: 70%;
+    left: 4.5%;
+    top: 8%;
+  }
+
+  .cta .row-cta .img-cta .info-cta .cta-logo {
+    width: 32%;
+  }
+}
+
 @media screen and (min-width: 1400px) {
   /* Hero */
   .hero .row-hero {
