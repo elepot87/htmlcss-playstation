@@ -263,12 +263,14 @@ body {
 
 /* Esplora PlayStation */
 
-.esplora-ps .title-esplora-ps {
+.esplora-ps .title-esplora-ps,
+.discount .title-discount {
   font-size: 38px;
 }
 
 .esplora-ps .text-esplora-ps,
-.esplora-ps .wrapper-esplora-ps .esplora-ps-accessori-text {
+.esplora-ps .wrapper-esplora-ps .esplora-ps-accessori-text,
+.discount .text-discount {
   font-size: 20px;
   color: #777777;
   font-weight: 500;
@@ -313,7 +315,13 @@ body {
   max-width: 100%;
 }
 
-/* Media query */
+/* Section discount */
+
+.discount .wrapper-discount .discount-img {
+  max-width: 100%;
+}
+
+/* MEDIA QUERY */
 
 @media screen and (min-width: 576px) {
   /* Hero */
@@ -349,6 +357,11 @@ body {
   .cta .row-cta .img-cta .info-cta .title-cta {
     font-size: 39px;
     margin: 31px 0;
+  }
+
+  /* Discount */
+  .discount .text-discount {
+    font-size: 19px;
   }
 }
 
