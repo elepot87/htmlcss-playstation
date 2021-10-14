@@ -26,8 +26,8 @@ body {
   margin-top: 36px;
 }
 
-.ms_mt_80 {
-  margin-top: 80px;
+.ms_m_80 {
+  margin: 80px 0;
 }
 
 /* Top bar */
@@ -285,6 +285,32 @@ body {
 
 .esplora-ps .wrapper-esplora-ps .esplora-ps-accessori-title {
   font-size: 35px;
+}
+
+/* PlayStation Plus */
+
+.playstation-plus {
+  background-color: #bebcbb;
+}
+
+.playstation-plus .playstation-plus-logo {
+  max-width: 65%;
+}
+
+.playstation-plus .playstation-plus-text {
+  margin: 20px 0;
+  font-size: 14px;
+}
+
+.playstation-plus .ms_btn_site_light {
+  color: #1d81d3;
+  background-color: #d9dadc;
+  border: none;
+  font-size: 13px;
+}
+
+.playstation-plus .playstation-plus-banner {
+  max-width: 100%;
 }
 
 /* Media query */
