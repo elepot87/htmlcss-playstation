@@ -349,7 +349,20 @@ body {
   max-width: 100%;
 }
 
-/* MEDIA QUERY */
+/* Social Media */
+
+.social-media .title-social {
+  font-size: 35px;
+  margin-bottom: 80px;
+}
+
+.social-media .wrapper-social .social-img {
+  max-width: 100%;
+}
+
+/* ==============================
+   MEDIA QUERY
+   ============================== */
 
 @media screen and (min-width: 576px) {
   /* Hero */
@@ -524,5 +537,14 @@ body {
 
   .esplora-ps .wrapper-esplora-ps .esplora-ps-accessori-text {
     font-size: 20px;
+  }
+
+  /* Social media */
+  .wrapper-social {
+    width: 96px;
+  }
+
+  .col-small {
+    width: 9%;
   }
 }
