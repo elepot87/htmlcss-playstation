@@ -464,6 +464,7 @@ body {
    MEDIA QUERY
    ============================== */
 
+/* Breakpoint sm */
 @media screen and (min-width: 576px) {
   /* Hero */
   .hero .row-hero .img-hero {
@@ -511,6 +512,7 @@ body {
   }
 }
 
+/* Breakpoint md */
 @media screen and (min-width: 768px) {
   /* Hero */
   .hero .row-hero .img-hero .info-hero {
@@ -570,6 +572,7 @@ body {
   }
 }
 
+/* Breakpoint lg */
 @media screen and (min-width: 992px) {
   /* CTA */
 
@@ -591,6 +594,7 @@ body {
   }
 }
 
+/* Breakpoint xxl */
 @media screen and (min-width: 1400px) {
   /* Hero */
   .hero .row-hero {
