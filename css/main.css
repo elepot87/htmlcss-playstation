@@ -570,8 +570,9 @@ body {
   }
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 992px) {
   /* CTA */
+
   .cta .row-cta .img-cta .info-cta {
     max-width: 70%;
     left: 4.5%;
