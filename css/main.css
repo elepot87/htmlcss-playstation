@@ -582,6 +582,13 @@ body {
   .cta .row-cta .img-cta .info-cta .cta-logo {
     width: 32%;
   }
+
+  /* Social media */
+  section.social-media {
+    /* max-width: 75.9%; */
+    max-width: 755px;
+    margin: 80px auto;
+  }
 }
 
 @media screen and (min-width: 1400px) {
@@ -638,11 +645,5 @@ body {
 
   .esplora-ps .wrapper-esplora-ps .esplora-ps-accessori-text {
     font-size: 20px;
-  }
-
-  /* Social media */
-  section.social-media {
-    max-width: 39.19%;
-    margin: 80px auto;
   }
 }
