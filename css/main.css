@@ -413,6 +413,11 @@ body {
   max-width: 100%;
 }
 
+section.social-media {
+  max-width: 755px;
+  margin: 80px auto;
+}
+
 /* Footer */
 
 .main-footer {
@@ -584,13 +589,6 @@ body {
 
   .cta .row-cta .img-cta .info-cta .cta-logo {
     width: 32%;
-  }
-
-  /* Social media */
-  section.social-media {
-    /* max-width: 75.9%; */
-    max-width: 755px;
-    margin: 80px auto;
   }
 }
 
