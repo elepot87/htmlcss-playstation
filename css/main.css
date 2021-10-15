@@ -347,7 +347,7 @@ body {
   color: #1d81d3;
   background-color: #d9dadc;
   border: none;
-  font-size: 13px;
+  font-size: 16px;
 }
 
 .playstation-plus .ms_btn_site_light:hover {
@@ -379,7 +379,7 @@ body {
 
 .playstation-now .playstation-now-text {
   margin: 20px 0;
-  font-size: 14px;
+  font-size: 16px;
   color: #fff;
 }
 
@@ -387,7 +387,7 @@ body {
   color: #161c3b;
   background-color: #fff;
   border: none;
-  font-size: 13px;
+  font-size: 16px;
   margin: 15px 0;
 }
 
