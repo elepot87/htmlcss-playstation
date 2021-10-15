@@ -361,7 +361,7 @@ body {
   max-width: 100%;
 }
 
-/* Dscount */
+/* Discount */
 
 .discount .wrapper-discount .discount-img {
   max-width: 100%;
@@ -411,10 +411,6 @@ body {
 
 .social-media .wrapper-social .social-img {
   max-width: 100%;
-}
-
-.wrapper-social {
-  width: 100%;
 }
 
 /* Footer */
@@ -644,11 +640,8 @@ body {
   }
 
   /* Social media */
-  .wrapper-social {
-    width: 96px;
-  }
-
-  .col-small {
-    width: 9%;
+  section.social-media {
+    max-width: 39.19%;
+    margin: 80px auto;
   }
 }
